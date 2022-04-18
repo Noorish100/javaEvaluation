@@ -2,25 +2,23 @@ package com.masai;
 
 import java.util.Scanner;
 public final class Child extends Java{
-	Scanner sc=new Scanner(System.in);
 	@Override
 	void method1(){
-		
-			System.out.println("write no");
-		int no=	sc.nextInt();
-			Java j2=new Child();
-		
-		if(no>0&&no<10){
-
-       System.out.println(sc.nextInt());
-
+		Java j1=new Child();
+		Scanner sc=new Scanner(System.in);
+		int k=j1.number;
+		System.out.println("write no");
+		k=sc.nextInt();
+		if(k>0&&k<10) {
+			System.out.println("no is"+k);
 		}
-		else{
-				System.out.println("invalid no");
+		else {
+			
+			System.out.println("invalid no");
 		}
 	}
 	void method4() {
-		System.out.println("m4 child");
+		System.out.println(" child m4");
 	}
 	
 	
