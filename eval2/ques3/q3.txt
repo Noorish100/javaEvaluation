@@ -1,0 +1,24 @@
+String
+
+it is a sequence of char .strings are objects
+string class can be created and manipulated .
+
+String s1=new String();
+
+StringBuffer
+
+StringBuffer is like a string but can be modified at any point in
+time it contain some particular sequence of char  but the length and content of sequence can be changed 
+it take string as argument 
+
+stringBuffer s1=new stringBuffer(String str);
+
+it is thread-safe 
+
+and we can modified string without making new object of string such as concating ,reverse etc
+
+StringBuilder 
+
+it is same just the differance is it is not thread-safe
+and slow .
+
